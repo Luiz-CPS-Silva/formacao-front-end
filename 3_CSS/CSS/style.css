@@ -80,3 +80,12 @@ hex-2 {
 .rgba {
     color: rgba(35, 113, 99, 0.5);
 }
+
+/* HSL */
+.hsl {
+    color: hsl(100, 20%, 50%);
+}
+
+.hsl-2 {
+    color: hsl(25, 77%, 65%);
+}
