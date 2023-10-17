@@ -66,3 +66,12 @@ hex-2 {
 .simple-hex-2 {
     color: #c39;
 }
+
+/* RGB */
+.rgb {
+    color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+    color: rgb(139, 21, 200);
+}
