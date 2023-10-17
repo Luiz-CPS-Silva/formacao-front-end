@@ -43,3 +43,26 @@ h2 {
 #algum-titulo {
     border-bottom: 4px solid green
 }
+
+/* nome de cores */
+.color-name {
+    color: cornflowerblue;
+}
+
+/* Hex */
+.hex {
+    color: #55a398;
+}
+
+hex-2 {
+    color: #392424;
+}
+
+/* Aprofundando em hex */
+.simple-hex {
+    color: #725;
+}
+
+.simple-hex-2 {
+    color: #c39;
+}
