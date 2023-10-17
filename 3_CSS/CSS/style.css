@@ -89,3 +89,14 @@ hex-2 {
 .hsl-2 {
     color: hsl(25, 77%, 65%);
 }
+
+/* background */
+.bg {
+    background-color: #000;
+    color: #932424;
+}
+
+.bg-2 {
+    background-color: rgb(200, 30, 21);
+    color: #fff;
+}
