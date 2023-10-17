@@ -22,3 +22,11 @@ p {
     background-color: black;
     padding: 5px;
 }
+
+/* id */
+#exclusive-title {
+    color: burlywood;
+    background-color: darkred;
+    padding: 10px;
+    font-size: 40px;
+}
