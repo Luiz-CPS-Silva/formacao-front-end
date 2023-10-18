@@ -33,7 +33,7 @@ h3 {
 
 /* Ordem das regras */
 h2 {
-    border-bottom: 2px solid red;
+    /* border-bottom: 2px solid red; */
 }
 
 .titulo {
@@ -54,7 +54,7 @@ h2 {
     color: #55a398;
 }
 
-hex-2 {
+.hex-2 {
     color: #392424;
 }
 
@@ -270,4 +270,20 @@ Isso pode ser feito com o simbolo ..
     border-radius: 7px;
     height: 400px;
     width: 200px;
+}
+
+/* Desafio - 3 - CSS */
+#box-model {
+    margin: 20px;
+    padding: 25px;
+    border: 5px solid #2b58de;
+    outline: 5px solid #2995D9;
+    height: 370px;
+    width: 250px;
+}
+
+.desafio-titulo {
+    background-color: #884ED9;
+    color: #F2E205;
+    border: none;
 }
