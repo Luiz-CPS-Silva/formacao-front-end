@@ -33,7 +33,7 @@ h3 {
 
 /* Ordem das regras */
 h2 {
-    /* border-bottom: 2px solid red; */
+    border-bottom: 2px solid red;
 }
 
 .titulo {
@@ -286,4 +286,119 @@ Isso pode ser feito com o simbolo ..
     background-color: #884ED9;
     color: #F2E205;
     border: none;
+}
+
+/* text alignment */
+.text-align {
+    text-align: right;
+}
+
+.container-center {
+    text-align: center;
+    width: 300px;
+    border: 3px solid #2b58de;
+}
+
+/* text decoration */
+.underline {
+    text-decoration: underline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: #932424;
+}
+
+/* text transform */
+.upper {
+    text-transform: uppercase;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+/* Letter spacing */
+.spacing {
+    letter-spacing: 7px;
+}
+
+/* Fontes */
+.serif {
+    font-family: georgia;
+}
+
+.sans-serif {
+    font-family: Helvetica;
+}
+
+.monospace {
+    font-family: "Courier New";
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+/* text style */
+.italic  {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+/* font weight */
+.thin, .bold, .bolder {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.bolder {
+    font-weight: 900;
+}
+
+/* font-size */
+.small {
+    font-size: 7px;
+} 
+
+.big {
+    font-size: 79px;
+}
+
+/* display */
+.inline-box {
+    height: 50px;
+    width: 50px;
+    background-color: #55a398;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block {
+    background-color: #999;
+    margin: 10px;
+    display: block;
+}
+
+/* escondendo elementos */
+.invisible {
+    display: none;
 }
