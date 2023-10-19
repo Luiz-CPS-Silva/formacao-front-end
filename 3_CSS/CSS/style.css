@@ -402,3 +402,115 @@ Isso pode ser feito com o simbolo ..
 .invisible {
     display: none;
 }
+
+/* static */
+.static {
+    position: static;
+    background-color: #2b58de;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+}
+
+/* relative */
+.relative {
+    position: relative;
+    top: 90px;
+    left: 100px;
+    background-color: #9c57fa;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+}
+
+/* absolute */
+.absolute {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    background-color: #751;
+    color: #fff;
+    height: 100px;
+    width: 100px;
+}
+
+/* relative e absolute */
+.container-relative {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin-top: 120px;
+    border:2px solid #957;
+}
+
+.absolute-1,
+.absolute-2 {
+    height: 50px;
+    width: 50px;
+    background-color: #222;
+    position: absolute;
+}
+
+.absolute-1 {
+    top: 70px;
+    left: 70px;
+}
+
+.absolute-2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixed */
+.fixed {
+    position: fixed;
+    top: 55px;
+    right: 555px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid #2995D9;
+    background-color: #2d58de;
+    color: #fff;
+}
+
+
+/* sticky */
+.sticky {
+    position: sticky;
+    top: 11px;
+    height: 100px;
+    width: 100px;
+    border: 3px solid #999;
+    background-color: #2995D9;
+}
+
+/* z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+    height: 50px;
+    width: 50px;
+    background-color: #827;
+    position: absolute;
+}
+
+.absolute-3 {
+    top: 0px;
+    left: 0px;
+    background-color: #367;
+    z-index: 3;
+}
+
+.absolute-4 {
+    top: 25px;
+    left: 25px;
+    background-color: #316;
+    z-index: 2;
+}
+
+.absolute-5 {
+    top: 50px;
+    left: 50px;
+    background-color: #927;
+    z-index: 1;
+}
