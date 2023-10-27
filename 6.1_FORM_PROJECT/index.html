@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre seu imóvel para vender mais rápido!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <div class="form-title">
+                            <h1>Venda facil seu imóvel</h1>
+                        </div>
+                         <form>
+                       <div class="options-box">
+                            <p>Negócios <span class="required-field">*</span></p>
+                            <ul class="options-list">
+                                <li>
+                                    <input type="checkbox" name="sale" id="sale">
+                                    <label for="sale">Venda</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="location" id="location">
+                                    <label for="location">Locação</label>
+                                </li>
+                            </ul>
+                       </div>
+                        <div class="box-input">
+                            <p>Tipos de imóvel <span class="required-field">*</span></p>
+                            <input type="radio" name="types-apt" id="apartment">
+                            <label for="apartment">Apartamento</label>
+                            <input type="radio" name="types-apt" id="house">
+                            <label for="house">Casa</label>
+                            <input type="radio" name="types-apt" id="flat">
+                            <label for="flat">Flat</label>
+                            <input type="radio" name="types-apt" id="lvg-room">
+                            <label for="lvg-room">Sala</label>
+                            <input type="radio" name="types-apt" id="store">
+                            <label for="store">Loja</label>
+                            <input type="radio" name="types-apt" id="KitNet">
+                            <label for="KitNet">KitNet</label>
+                        </div>
+                        <div class="box-input">
+                            <label for="pickup">Captador <span class="required-field">*</span></label>
+                            <input type="text" name="pickup" id="pickup" class="block" placeholder="Digite seu nome completo" minlength="1" maxlength="35">
+                        </div>
+                        <div class="box-input">
+                            <label for="price">Valor <span class="required-field">*</span></label>
+                            <input type="number" name="price" id="price" class="block" placeholder="Digite o valor do imóvel">
+                        </div>
+                        <div class="box-input">
+                            <p>Localização do imóvel <span class="required-field">*</span></p>
+                            <label for="address">Endereço</label>
+                            <input type="text" name="address" id="address" placeholder="Digite o endereço do imóvel">
+                        </div>
+                        <div class="box-input">
+                            <label for="complement">Complemento</label>
+                            <input type="text" name="complement" id="complement" placeholder="Digite um complemento do imóvel">
+                        </div>
+                        <div class="box-input">
+                            <label for="nbh">Bairro</label>
+                            <input type="text" name="nbh" id="nbh" placeholder="Digite o bairro onde o imóvel se localiza">
+                        </div>
+                        <div class="box-input">
+                            <label for="cdm">Condominio</label>
+                            <input type="text" name="cdm" id="cdm" placeholder="Digite onde esta localizado o condominio">
+                        </div>
+                        <div class="box-input">
+                            <p>Fotos do imóvel <span class="required-field">*</span></p>
+                            <input type="file" name="img" id="img" multiple accept="image/jpg, image/png" required>
+                        </div>
+                        <input type="submit" value="Enviar" class="btn-submit">
+                     </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
