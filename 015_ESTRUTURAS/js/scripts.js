@@ -37,6 +37,14 @@ let $teste = "ok";
 
 console.log(_teste, $teste);
 
-// 3 - Nomes reservados
+// 3 - prompt
+// const age = prompt("Digite a sua idade:");
 
-// 4 - Ambiente JavaScript
+// console.log(`Você tem ${age} anos.`);
+
+// 4 - alert
+alert("Testando");
+
+const z = 11;
+
+alert(`O número é ${z}`)
