@@ -187,11 +187,51 @@ for(let l = 31; l > 21; l--) {
 }
 
 // 15 - continue
-for(let s = 0; s < 10; s = + 1) {
+ for(let s = 1; s < 10; s = s + 1) {
     // operador resto = %
     if(s % 2 === 0) {
-        console.log("Número par");
-        continue;
+        console.log("Número par!");
+        continue
     }
-    console.log(s)
+    console.log(s);
+ }
+
+//  16 - switch
+const job = "Programador";
+
+switch(job) {
+    case "Programador":
+        console.log("Você é um programador");
+     break;
+    case "Advogado":
+        console.log("Você é um advogado");
+     break;
+    case "Engenheiro":
+        console.log("Você é um engenheiro");
+     break;
+    default:
+        console.log("Profissão não encontrada");
 }
+
+// switch "errado"
+const l = 100;
+
+switch (l) {
+    case 200:
+        console.log("L é 200!");
+    case 100:
+         console.log("L é 100!");
+    case 10:
+        console.log("L é 10!");
+    default:
+        console.log("L não foi encontrado")
+}
+
+// Convenção de nome de variáveis
+// Do pior para o melhor
+/*
+let programadorcadastrado; (ruim)
+let programador_cadastrado;
+let ProgramadorCadastrado;
+let programadorCadastrado; (mais utilizado)
+*/
