@@ -157,3 +157,41 @@ let r = 10;
 for (r; r > 0; r = r - 1) {
     console.log(`O r está diminuido: ${r}`);
 }
+
+// 13 - identação
+for(let u = 0; u < 10; u++) {
+    if (u * 2 > 10) {
+        console.log(`Maior que 10! ${u}`);
+    } else {
+        if (u / 2 === 0) {
+            console.log("Deu 0");
+        }
+    }
+}
+
+// 14 - break
+for(let g = 20; g > 10; g--) {
+    console.log(`O valor de g é: ${g}`);
+    if(g === 15) {
+        console.log("o g é igual a 15");
+        break;
+    }
+}
+
+for(let l = 31; l > 21; l--) {
+    console.log(`O valor de l é: ${l}`);
+    if(l === 27) {
+        console.log("O l é igual a 27");
+        break;
+    }
+}
+
+// 15 - continue
+for(let s = 0; s < 10; s = + 1) {
+    // operador resto = %
+    if(s % 2 === 0) {
+        console.log("Número par");
+        continue;
+    }
+    console.log(s)
+}
