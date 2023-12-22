@@ -55,14 +55,31 @@ testandoEscopo();
 let m = 10;
 
 function escopoAninhado() {
-  let m = 20
+  let m = 20;
+
   if (true) {
-    let m = 30
+    let m = 30;
+
     if (true) {
-      let m = 40
-      console.log(m)
+      let m = 40;
+
+      console.log(m);
     }
-    console.log(m)
+
+    console.log(m);
   }
-  console.log(m)
+
+  console.log(m);
 }
+
+escopoAninhado();
+
+console.log(m);
+
+// 5 - arrow function
+const testeArrow = () => {
+  console.log("Essa é uma arrow function");
+};
+
+testeArrow();
+
