@@ -95,3 +95,20 @@ const parOuImpar = (n) => {
 parOuImpar(5);
 
 parOuImpar(10);
+
+// mais sobre arrow functions
+const raizQuadrada = (x) => {
+  return x * x;
+};
+
+console.log(raizQuadrada(4));
+
+const raizQuadrada2 = (x) => x * x;
+
+console.log(raizQuadrada2(5));
+
+console.log(raizQuadrada(12));
+
+const helloWorld = () => console.log("hello World");
+
+helloWorld();
