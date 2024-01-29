@@ -112,3 +112,49 @@ console.log(raizQuadrada(12));
 const helloWorld = () => console.log("hello World");
 
 helloWorld();
+
+// 7 - paramametro opcional
+
+const multiplication = function (m, n) {
+  if (n === undefined) {
+    return m * 2;
+  } else {
+    return m * n;
+  }
+};
+
+console.log(multiplication(5));
+
+console.log(multiplication(2, 4));
+
+const greeting = (name) => {
+  if (!name) {
+    console.log("Olá!");
+    return;
+  }
+
+  console.log(`Olá ${name}`);
+};
+
+greeting();
+
+greeting("Luiz");
+
+// 8 - valor default
+const customGreeting = (name, greet = "Olá") => {
+  return `${greet}, ${name}!`;
+};
+
+console.log(customGreeting("Luiz"));
+
+console.log(customGreeting("Batman", "Bom dia"));
+
+const repeatText = (text, repeat = 2) => {
+  for (let i = 0; i < repeat; i++) {
+    console.log(text);
+  }
+};
+
+repeatText("Testando!");
+
+repeatText("Agora repete 5 vezes", 5)
